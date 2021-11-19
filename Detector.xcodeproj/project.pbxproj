@@ -11,6 +11,10 @@
 		1BC93FCE27471BE2009C3676 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC93FCD27471BE2009C3676 /* ContentView.swift */; };
 		1BC93FD027471BE2009C3676 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BC93FCF27471BE2009C3676 /* Assets.xcassets */; };
 		1BC93FD327471BE2009C3676 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BC93FD227471BE2009C3676 /* Preview Assets.xcassets */; };
+		1BC93FDC27471CCE009C3676 /* ImageAcquisitionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC93FDB27471CCE009C3676 /* ImageAcquisitionController.swift */; };
+		1BC93FDE27471D4F009C3676 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC93FDD27471D4F009C3676 /* ImagePicker.swift */; };
+		1BC93FE027472221009C3676 /* Detector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC93FDF27472221009C3676 /* Detector.swift */; };
+		1BE43395274742F90028E99E /* FlowerDetectorTuri.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 1BE43394274742F80028E99E /* FlowerDetectorTuri.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		1BC93FCD27471BE2009C3676 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1BC93FCF27471BE2009C3676 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1BC93FD227471BE2009C3676 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1BC93FDB27471CCE009C3676 /* ImageAcquisitionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageAcquisitionController.swift; sourceTree = "<group>"; };
+		1BC93FDD27471D4F009C3676 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		1BC93FDF27472221009C3676 /* Detector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detector.swift; sourceTree = "<group>"; };
+		1BE43394274742F80028E99E /* FlowerDetectorTuri.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = FlowerDetectorTuri.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +59,14 @@
 		1BC93FCA27471BE2009C3676 /* Detector */ = {
 			isa = PBXGroup;
 			children = (
+				1BE43394274742F80028E99E /* FlowerDetectorTuri.mlmodel */,
 				1BC93FCB27471BE2009C3676 /* DetectorApp.swift */,
 				1BC93FCD27471BE2009C3676 /* ContentView.swift */,
 				1BC93FCF27471BE2009C3676 /* Assets.xcassets */,
 				1BC93FD127471BE2009C3676 /* Preview Content */,
+				1BC93FDB27471CCE009C3676 /* ImageAcquisitionController.swift */,
+				1BC93FDD27471D4F009C3676 /* ImagePicker.swift */,
+				1BC93FDF27472221009C3676 /* Detector.swift */,
 			);
 			path = Detector;
 			sourceTree = "<group>";
@@ -137,7 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BC93FE027472221009C3676 /* Detector.swift in Sources */,
 				1BC93FCE27471BE2009C3676 /* ContentView.swift in Sources */,
+				1BC93FDE27471D4F009C3676 /* ImagePicker.swift in Sources */,
+				1BC93FDC27471CCE009C3676 /* ImageAcquisitionController.swift in Sources */,
+				1BE43395274742F90028E99E /* FlowerDetectorTuri.mlmodel in Sources */,
 				1BC93FCC27471BE2009C3676 /* DetectorApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
